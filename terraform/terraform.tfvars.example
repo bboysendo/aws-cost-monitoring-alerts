@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored — never commit it (it would contain your email).
+
+aws_region  = "us-east-1" # must stay us-east-1 — see README
+alert_email = "you@example.com"
+budget_amount = 20
+
+# project_name                 = "cost-monitor"
+# actual_alert_threshold_pct   = 80
